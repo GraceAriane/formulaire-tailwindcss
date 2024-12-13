@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
     * {
-      margin: 0; /* Appliquer une marge 0 à tous les éléments */
-      padding: 0; /* Appliquer un padding 0 à tous les éléments */
-      box-sizing: border-box; /* Appliquer le modèle de boîte à tous les éléments */
+      margin: 0;
+      padding: 0; 
+      box-sizing: border-box;
     }
-}
+} */

@@ -7,7 +7,7 @@ buttonconnexion.addEventListener('click',(e)=>{
     const connexion = document.querySelector(".connexion")
 
     inscription.style.display="none"
-    connexion.style.visibility="visible"
+    connexion.style.display="flex"
 
     buttonconnexion.style.cssText=`
         background-color: rgb(30, 115, 190);
@@ -33,8 +33,7 @@ buttoninscription.addEventListener('click',(e)=>{
     const connexion = document.querySelector(".connexion")
 
     inscription.style.display="flex"
-    connexion.style.visibility="hidden"
-
+    connexion.style.display="none"
     buttoninscription.style.cssText=`
         background-color: rgb(30, 115, 190);
         color: white;
